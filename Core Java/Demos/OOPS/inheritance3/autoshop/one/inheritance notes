@@ -1,0 +1,24 @@
+1. Process of creating a new class from exiting class.
+2. We use extends keyword for inheritance.
+3. A
+    - Class A variable
+    - Class A methods
+    
+ 4. the class B you create will be able to access the 
+ A class variable and methods.
+ 
+ 5. We always have to create the object for the class B
+ only not Class A.
+ 
+ class A{
+ }
+ class B extends A{
+ }
+ 
+ Main 
+ B b1=new B() ; // You will be able to create object for B class and it can access all members
+ of A class.
+ 
+ Parent class / Super class 
+ 
+ Child class / sub class is called Dervied class
